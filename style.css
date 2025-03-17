@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#cabecalho {
+    background-color: rgba(48, 48, 48, 1);
+    padding-left: 50px;
+}
+
+#tituloCabecalho {
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: -2.5%;
+    color: #FFFFFF;
+    padding-top: 140px;
+    padding-bottom: 20px;
+}
+
+#textoCabecalho {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color:  rgba(255, 255, 255, 1);
+    padding-bottom: 120px;
+}
+
+#numeros {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 35px
+}
+
+#numeros h1 {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    padding-bottom: 10px;
+}
+
+#numeros p {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0%;
+}
+
+#textoImagem {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    justify-content: center;
+}
+
+#textoImagem h1 {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 20px;
+    padding-bottom: 15px;
+
+}
+
+#textoImagem p {
+    text-align: left;
+    font-family: Inter;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    padding-right: 5px;
+}
+
+#textoImagem img {
+    width: 510px;
+    height: 500px;
+}
+
+#ArquitetoTexto {
+    margin-left: 80px;
+    margin-top: 160px;
+}
+
+/* estiliza o formulário */
+#formulario{
+    text-align: center;
+    background-color: rgba(48, 48, 48, 1);
+}
+
+#titulo-formulario {
+    color: #EAECE5;
+} 
+
+/* estiliza os campos de entrada */
+input{
+    background-color: rgb(236, 234, 234);
+    width: 300px;
+    height: 30px;
+    margin: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 0px solid #EAECE5;
+}
+
+/* estiliza o botão de envio */
+button{
+    background-color: #e7ca25;
+    color: white;
+    font-weight: bolder;
+    width: 250px;
+    height: 35px;
+    margin-bottom: 30px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
