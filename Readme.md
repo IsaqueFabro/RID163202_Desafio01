@@ -27,7 +27,7 @@ This repository contains the development of a **modern and responsive Landing Pa
 ## 🌍 Live Website  
 
 🚀 The Landing Page is available online at:  
-🔗 **[View Website](site)**  
+🔗 **[View Website](https://desafio-01-isaque-fabro.netlify.app/)**  
 
 ---  
 
